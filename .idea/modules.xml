@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AsDemoProject.iml" filepath="$PROJECT_DIR$/AsDemoProject.iml" />
+      <module fileurl="file://E:\MySpace\WorkSpace\AsProject\AsDemoProject\BleTest_LowPower\BleTest.iml" filepath="E:\MySpace\WorkSpace\AsProject\AsDemoProject\BleTest_LowPower\BleTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BleTest_LowPower/BleTest_LowPower.iml" filepath="$PROJECT_DIR$/BleTest_LowPower/BleTest_LowPower.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DynamicShowData/DynamicShowData.iml" filepath="$PROJECT_DIR$/DynamicShowData/DynamicShowData.iml" />
+    </modules>
+  </component>
+</project>

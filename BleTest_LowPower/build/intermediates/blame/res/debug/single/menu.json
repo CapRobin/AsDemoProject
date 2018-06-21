@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\BleTest_LowPower\\build\\intermediates\\res\\merged\\debug\\menu\\menu_share.xml",
+        "source": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\BleTest_LowPower\\src\\main\\res\\menu\\menu_share.xml"
+    },
+    {
+        "merged": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\BleTest_LowPower\\build\\intermediates\\res\\merged\\debug\\menu\\menu_usr.xml",
+        "source": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\BleTest_LowPower\\src\\main\\res\\menu\\menu_usr.xml"
+    },
+    {
+        "merged": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\BleTest_LowPower\\build\\intermediates\\res\\merged\\debug\\menu\\menu_more.xml",
+        "source": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\BleTest_LowPower\\src\\main\\res\\menu\\menu_more.xml"
+    }
+]

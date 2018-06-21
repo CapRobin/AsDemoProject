@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="edit_bg">#EEEEEE</color>
+    <color name="consult_bg">#EFEAEA</color>
+    <color name="black">#000000</color>
+    <color name="blank_color">#ff999999</color>
+    <color name="ad_bg">#88838B8B</color>
+    <color name="gray">#7c7c7c</color>
+    <color name="gray_light">#887c7c7c</color>
+    <color name="gray_black">#2e2e2e</color>
+    <color name="yellow">#FFFC00</color>
+    <color name="pink">#FF87EF</color>
+    <color name="orange">#ff6200</color>
+    <color name="sc_transparent_background">#00111111</color>
+    <color name="theam_bg">#33B5E5</color>
+    <color name="list_divider">#D3D3D3</color>
+    <color name="light_blue">#C2E2EE</color>
+    <color name="deep_orange">#A2754B</color>
+    <color name="transparent">#00000000</color>
+    <color name="pressed">#fff22fff</color>
+    <color name="focused">#ffff44ff</color>
+    <color name="click_bg">#F5F5F5</color>
+    <color name="blue_text">#33B5E5</color>
+    <color name="menu_bg">#ECF9FB</color>
+    <color name="them_blue">#4EACCE</color>
+
+    <!-- bp Color -->
+    <color name="redbp">#FF0000</color>
+    <color name="orangebp">#FF8F05</color>
+    <color name="yellowbp">#FFCF08</color>
+    <color name="grassbp">#B4ED5A</color>
+    <color name="greenbp">#6ADCAD</color>
+    <color name="bluebp">#1FCAFF</color>
+    <color name="zgw">#F0F0F0</color>
+    <color name="qyys">#E0EEEE</color>
+    <color name="advicer_state_disable">#EBA663</color>
+    <color name="advicer_state_enable">#33B5E6</color>
+    <color name="advicer_button_bg">#BEBEBE</color>
+
+    <!-- 边框背景调试颜色 -->
+
+    <color name="balck">#FF000000</color>
+    <color name="pressed_bg">#B0E2FF</color>
+    <color name="nomal_line_bg">#ABABAB</color>
+    <!-- 取消按钮背景 -->
+    <color name="cancle_n">#cbcbcb</color>
+    <color name="cancle_f">#8e8e8e</color>
+    
+    
+    <color name="app_bg">#f1f6f7</color>
+    <color name="exist_bg">#FF9933</color>
+    <color name="action_bg">#F8F8FF</color>
+    <color name="text_color3">#8c8c8c</color>
+    <color name="list_bg">#7D9EC0</color>
+    
+    
+    <color name="index_main_bg">#2C4A6C</color>
+
+</resources>

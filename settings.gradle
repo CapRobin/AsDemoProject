@@ -1,0 +1,1 @@
+include ':BleTest_LowPower', ':DynamicShowData'
