@@ -1,1 +1,1 @@
-include ':BleTest_LowPower', ':DynamicShowData', ':WaterLib02', ':WaterStyle', ':WaterLib01', ':BannerCustom', ':BannerLib', ':LoadingLib', ':LoadingStyle'
+include ':BleTest_LowPower', ':DynamicShowData', ':WaterLib02', ':WaterStyle', ':WaterLib01', ':BannerCustom', ':BannerLib', ':LoadingLib', ':LoadingStyle', ':CustomDialogView'
