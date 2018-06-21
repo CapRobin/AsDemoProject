@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <com.abysmel.dashspinner.DashSpinner
+        android:id="@+id/progress.spinner"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        app:arcColor="#03A9F4"
+        app:arcLength="45.0"
+        app:arcStartPosition="270.0"
+        app:arcSweepSpeed="20.0"
+        app:arcWidth="4dp"
+        app:innerCircleFailureColor="#F44336"
+        app:innerCircleSuccessColor="#388E3C"
+        app:innerCircleUnknownColor="#FFA000"
+        app:maxProgressTextSize="40sp"
+        app:outerRingColor="#607D8B"
+        app:outerRingWidth="1dp"
+        app:showProgressText="true"
+        app:textColorFrom="#FF0000"
+        app:textColorTo="#FFFFFF" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:background="@drawable/t_login_layout_btn_bg"
+        android:text="登录"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_01"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:background="@drawable/t_login_layout_btn_bg"
+        android:text="成功"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_02"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:background="@drawable/t_login_layout_btn_bg"
+        android:text="失败"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_03"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:background="@drawable/t_login_layout_btn_bg"
+        android:text="异常"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+</RelativeLayout>

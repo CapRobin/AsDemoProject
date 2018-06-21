@@ -4,7 +4,7 @@ android {
     buildToolsVersion '25.0.0'
     defaultConfig {
         applicationId "com.example.user.androidutil"
-        minSdkVersion 15
+        minSdkVersion 19
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -25,5 +25,5 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.1.0'
     compile 'com.android.support.test:runner:1.0.2'
     compile 'com.android.support.test.espresso:espresso-core:3.0.2'
-    compile project(path: ':Progressbar-master')
+    compile project(path: ':WaterLib02')
 }

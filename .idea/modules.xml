@@ -3,13 +3,17 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AsDemoProject.iml" filepath="$PROJECT_DIR$/AsDemoProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BannerCustom/CustomBanner.iml" filepath="$PROJECT_DIR$/BannerCustom/CustomBanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BannerLib/banner.iml" filepath="$PROJECT_DIR$/BannerLib/banner.iml" />
       <module fileurl="file://E:\MySpace\WorkSpace\AsProject\AsDemoProject\BleTest_LowPower\BleTest.iml" filepath="E:\MySpace\WorkSpace\AsProject\AsDemoProject\BleTest_LowPower\BleTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/BleTest_LowPower/BleTest_LowPower.iml" filepath="$PROJECT_DIR$/BleTest_LowPower/BleTest_LowPower.iml" />
       <module fileurl="file://$PROJECT_DIR$/DynamicShowData/DynamicShowData.iml" filepath="$PROJECT_DIR$/DynamicShowData/DynamicShowData.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Progressbar-master/Progressbar-master.iml" filepath="$PROJECT_DIR$/Progressbar-master/Progressbar-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LoadingLib/LoadingLib.iml" filepath="$PROJECT_DIR$/LoadingLib/LoadingLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LoadingStyle/LoadingStyle.iml" filepath="$PROJECT_DIR$/LoadingStyle/LoadingStyle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WaterLib01/mylibrary.iml" filepath="$PROJECT_DIR$/WaterLib01/mylibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WaterLib02/Progressbar-master.iml" filepath="$PROJECT_DIR$/WaterLib02/Progressbar-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/WaterStyle/WaterStyle.iml" filepath="$PROJECT_DIR$/WaterStyle/WaterStyle.iml" />
       <module fileurl="file://E:\MySpace\WorkSpace\AsProject\AsDemoProject\app\app.iml" filepath="E:\MySpace\WorkSpace\AsProject\AsDemoProject\app\app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mylibrary/mylibrary.iml" filepath="$PROJECT_DIR$/mylibrary/mylibrary.iml" />
     </modules>
   </component>
 </project>
