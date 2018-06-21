@@ -11,6 +11,9 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/BleTest_LowPower" />
             <option value="$PROJECT_DIR$/DynamicShowData" />
+            <option value="$PROJECT_DIR$/Progressbar-master" />
+            <option value="$PROJECT_DIR$/WaterStyle" />
+            <option value="$PROJECT_DIR$/mylibrary" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

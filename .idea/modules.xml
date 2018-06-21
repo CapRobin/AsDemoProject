@@ -6,6 +6,10 @@
       <module fileurl="file://E:\MySpace\WorkSpace\AsProject\AsDemoProject\BleTest_LowPower\BleTest.iml" filepath="E:\MySpace\WorkSpace\AsProject\AsDemoProject\BleTest_LowPower\BleTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/BleTest_LowPower/BleTest_LowPower.iml" filepath="$PROJECT_DIR$/BleTest_LowPower/BleTest_LowPower.iml" />
       <module fileurl="file://$PROJECT_DIR$/DynamicShowData/DynamicShowData.iml" filepath="$PROJECT_DIR$/DynamicShowData/DynamicShowData.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Progressbar-master/Progressbar-master.iml" filepath="$PROJECT_DIR$/Progressbar-master/Progressbar-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WaterStyle/WaterStyle.iml" filepath="$PROJECT_DIR$/WaterStyle/WaterStyle.iml" />
+      <module fileurl="file://E:\MySpace\WorkSpace\AsProject\AsDemoProject\app\app.iml" filepath="E:\MySpace\WorkSpace\AsProject\AsDemoProject\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mylibrary/mylibrary.iml" filepath="$PROJECT_DIR$/mylibrary/mylibrary.iml" />
     </modules>
   </component>
 </project>

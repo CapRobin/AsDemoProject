@@ -1,1 +1,1 @@
-include ':BleTest_LowPower', ':DynamicShowData'
+include ':BleTest_LowPower', ':DynamicShowData', ':Progressbar-master', ':WaterStyle', ':mylibrary'

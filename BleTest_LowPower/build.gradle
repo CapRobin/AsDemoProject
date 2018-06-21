@@ -7,7 +7,7 @@ android {
 //        abortOnError false
 //        disable 'InvalidPackage'
         //添加该行代码可避免打包生成Apk或编译时报翻译中文错误的问题
-//        disable 'MissingTranslation'
+        disable 'MissingTranslation'
     }
     compileSdkVersion 23
     buildToolsVersion '25.0.0'
