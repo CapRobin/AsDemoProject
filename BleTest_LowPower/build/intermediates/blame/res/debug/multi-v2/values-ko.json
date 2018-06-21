@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\BleTest_LowPower\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ko\\values-ko.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\User\\.gradle\\wrapper\\dists\\gradle-3.3-all\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.0.aar\\c7431324cf084e710dd4fc3a6b59b47f\\res\\values-ko\\values-ko.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "276,371,479,602,696,798,880,978,1084,1164,1262,1357,1452,1552,1648,1747,1862,1956",
+                        "endColumns": "94,107,122,93,101,81,97,105,79,97,94,94,99,95,98,114,93,100",
+                        "endOffsets": "366,474,597,691,793,875,973,1079,1159,1257,1352,1447,1547,1643,1742,1857,1951,2052"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,150,258,381,475,577,659,757,863,943,1041,1136,1231,1331,1427,1526,1641,1735",
+                        "endColumns": "94,107,122,93,101,81,97,105,79,97,94,94,99,95,98,114,93,100",
+                        "endOffsets": "145,253,376,470,572,654,752,858,938,1036,1131,1226,1326,1422,1521,1636,1730,1831"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -3,18 +3,22 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AsDemoProject.iml" filepath="$PROJECT_DIR$/AsDemoProject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BannerCustom/CustomBanner.iml" filepath="$PROJECT_DIR$/BannerCustom/CustomBanner.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BannerLib/banner.iml" filepath="$PROJECT_DIR$/BannerLib/banner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BannerCustom/BannerCustom.iml" filepath="$PROJECT_DIR$/BannerCustom/BannerCustom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BannerLib/BannerLib.iml" filepath="$PROJECT_DIR$/BannerLib/BannerLib.iml" />
       <module fileurl="file://E:\MySpace\WorkSpace\AsProject\AsDemoProject\BleTest_LowPower\BleTest.iml" filepath="E:\MySpace\WorkSpace\AsProject\AsDemoProject\BleTest_LowPower\BleTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/BleTest_LowPower/BleTest_LowPower.iml" filepath="$PROJECT_DIR$/BleTest_LowPower/BleTest_LowPower.iml" />
+      <module fileurl="file://E:\MySpace\WorkSpace\AsProject\AsDemoProject\BannerCustom\CustomBanner.iml" filepath="E:\MySpace\WorkSpace\AsProject\AsDemoProject\BannerCustom\CustomBanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/CustomDialogView/CustomDialogView.iml" filepath="$PROJECT_DIR$/CustomDialogView/CustomDialogView.iml" />
       <module fileurl="file://$PROJECT_DIR$/DynamicShowData/DynamicShowData.iml" filepath="$PROJECT_DIR$/DynamicShowData/DynamicShowData.iml" />
       <module fileurl="file://$PROJECT_DIR$/LoadingLib/LoadingLib.iml" filepath="$PROJECT_DIR$/LoadingLib/LoadingLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/LoadingStyle/LoadingStyle.iml" filepath="$PROJECT_DIR$/LoadingStyle/LoadingStyle.iml" />
-      <module fileurl="file://$PROJECT_DIR$/WaterLib01/mylibrary.iml" filepath="$PROJECT_DIR$/WaterLib01/mylibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/WaterLib02/Progressbar-master.iml" filepath="$PROJECT_DIR$/WaterLib02/Progressbar-master.iml" />
+      <module fileurl="file://E:\MySpace\WorkSpace\AsProject\AsDemoProject\WaterLib02\Progressbar-master.iml" filepath="E:\MySpace\WorkSpace\AsProject\AsDemoProject\WaterLib02\Progressbar-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WaterLib01/WaterLib01.iml" filepath="$PROJECT_DIR$/WaterLib01/WaterLib01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WaterLib02/WaterLib02.iml" filepath="$PROJECT_DIR$/WaterLib02/WaterLib02.iml" />
       <module fileurl="file://$PROJECT_DIR$/WaterStyle/WaterStyle.iml" filepath="$PROJECT_DIR$/WaterStyle/WaterStyle.iml" />
       <module fileurl="file://E:\MySpace\WorkSpace\AsProject\AsDemoProject\app\app.iml" filepath="E:\MySpace\WorkSpace\AsProject\AsDemoProject\app\app.iml" />
+      <module fileurl="file://E:\MySpace\WorkSpace\AsProject\AsDemoProject\BannerLib\banner.iml" filepath="E:\MySpace\WorkSpace\AsProject\AsDemoProject\BannerLib\banner.iml" />
+      <module fileurl="file://E:\MySpace\WorkSpace\AsProject\AsDemoProject\WaterLib01\mylibrary.iml" filepath="E:\MySpace\WorkSpace\AsProject\AsDemoProject\WaterLib01\mylibrary.iml" />
     </modules>
   </component>
 </project>

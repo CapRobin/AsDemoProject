@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\build\\intermediates\\res\\merged\\debug\\layout_view_item.xml.flat",
+        "source": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\src\\main\\res\\layout\\view_item.xml"
+    },
+    {
+        "merged": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_search.png.flat",
+        "source": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\src\\main\\res\\drawable-hdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher.png.flat",
+        "source": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\src\\main\\res\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_pop_02.png.flat",
+        "source": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\src\\main\\res\\drawable-hdpi\\pop_02.png"
+    },
+    {
+        "merged": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_test_01.9.png.flat",
+        "source": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\src\\main\\res\\drawable-hdpi\\test_01.9.png"
+    },
+    {
+        "merged": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\build\\intermediates\\res\\merged\\debug\\menu_activity_main.xml.flat",
+        "source": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\src\\main\\res\\menu\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_myedit_bg.9.png.flat",
+        "source": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\src\\main\\res\\drawable-hdpi\\myedit_bg.9.png"
+    },
+    {
+        "merged": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\build\\intermediates\\res\\merged\\debug\\drawable_view_item_bg.xml.flat",
+        "source": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\src\\main\\res\\drawable\\view_item_bg.xml"
+    },
+    {
+        "merged": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_pop_01.9.png.flat",
+        "source": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\src\\main\\res\\drawable-hdpi\\pop_01.9.png"
+    },
+    {
+        "merged": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher.png.flat",
+        "source": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_search.png.flat",
+        "source": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\src\\main\\res\\drawable-xhdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_input_box_n.9.png.flat",
+        "source": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\src\\main\\res\\drawable-hdpi\\input_box_n.9.png"
+    },
+    {
+        "merged": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_search.png.flat",
+        "source": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\src\\main\\res\\drawable-mdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_c.png.flat",
+        "source": "E:\\MySpace\\WorkSpace\\AsProject\\AsDemoProject\\DynamicShowData\\src\\main\\res\\drawable-hdpi\\c.png"
+    }
+]

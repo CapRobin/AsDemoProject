@@ -1,6 +1,12 @@
 -- Merging decision tree log ---
 manifest
 ADDED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main\AndroidManifest.xml:1:1-26:12
 	package
 		ADDED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main\AndroidManifest.xml:2:5-42
 		INJECTED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main\AndroidManifest.xml
@@ -9,14 +15,18 @@ ADDED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main
 		ADDED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main\AndroidManifest.xml:4:5-30
 		INJECTED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main\AndroidManifest.xml
 		INJECTED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main\AndroidManifest.xml:1:11-69
 	android:versionCode
 		ADDED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main\AndroidManifest.xml:3:5-28
 		INJECTED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main\AndroidManifest.xml
 		INJECTED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main\AndroidManifest.xml
-	xmlns:android
-		ADDED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main\AndroidManifest.xml:1:11-69
 uses-sdk
 ADDED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main\AndroidManifest.xml:6:5-8:41
+INJECTED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main\AndroidManifest.xml:6:5-8:41
+INJECTED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main\AndroidManifest.xml:6:5-8:41
+INJECTED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main\AndroidManifest.xml:6:5-8:41
+INJECTED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main\AndroidManifest.xml:6:5-8:41
 	android:targetSdkVersion
 		ADDED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main\AndroidManifest.xml:8:9-38
 		INJECTED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main\AndroidManifest.xml
@@ -41,7 +51,7 @@ ADDED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main
 		ADDED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main\AndroidManifest.xml:17:13-67
 	android:name
 		ADDED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main\AndroidManifest.xml:15:13-41
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
 ADDED from E:\MySpace\WorkSpace\AsProject\AsDemoProject\DynamicShowData\src\main\AndroidManifest.xml:19:17-69
