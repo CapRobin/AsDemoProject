@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/title_bar_layout"
+        layout="@layout/title_bar" />
+
+    <LinearLayout
+        android:id="@+id/bannerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- 设置普通指示器 -->
+        <com.donkingliang.banner.CustomBanner xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_200"
+            app:indicatorGravity="CENTER"
+            app:indicatorInterval="5dp"
+            app:indicatorSelectRes="@drawable/shape_point_select"
+            app:indicatorStyle="ORDINARY"
+            app:indicatorUnSelectRes="@drawable/shape_point_unselect" />
+
+        <!-- 设置数字指示器 -->
+        <!--<com.donkingliang.banner.CustomBanner-->
+        <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/banner"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="180dp"-->
+        <!--app:indicatorStyle="NUMBER"-->
+        <!--app:indicatorGravity="RIGHT"/>-->
+
+        <!-- 设置没有指示器 -->
+        <!--<com.donkingliang.banner.CustomBanner-->
+        <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/banner"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="180dp"-->
+        <!--app:indicatorStyle="NONE"/>-->
+
+    </LinearLayout>
+
+    <View style="@style/line_view_hor" />
+
+    <GridView
+        android:id="@+id/grid_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray"
+        android:horizontalSpacing="@dimen/dp_0_5"
+        android:listSelector="@color/transparent"
+        android:numColumns="2"
+        android:verticalSpacing="@dimen/dp_0_5" />
+
+    <View style="@style/line_view_hor" />
+</LinearLayout>

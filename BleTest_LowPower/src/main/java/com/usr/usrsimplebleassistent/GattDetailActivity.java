@@ -1158,18 +1158,23 @@ public class GattDetailActivity extends MyBaseActivity {
 
     private void writeOption(int flag) {
         String text = null;
-//        text = "6806105968010008176840010400FF00707b16";
-        if (flag == 0) {
-//            text = etWrite.getText().toString();
-            text = "6806105968010008176840010400FF00707b16";
-        } else {
-            //更改频率
-            text = "68F104000b0904037816";
+//        if (flag == 0) {
+////            text = etWrite.getText().toString();
+//            text = "6806105968010008176840010400FF00707b16";
+//        } else {
+//            //更改频率
+//            text = "68F104000b0904037816";
+//        }
+
+        text = etWrite.getText().toString().trim();
+        if(text.isEmpty()){
+            text = "680630020030061820684001040C010004CC16";
         }
         writeOption(text);
     }
 
     private void writeOption(String text) {
+
         if (TextUtils.isEmpty(text)) {
             AnimateUtils.shake(etWrite);
 //            return;
@@ -1181,8 +1186,44 @@ public class GattDetailActivity extends MyBaseActivity {
                 AnimateUtils.shake(etWrite);
                 return;
             }
-            byte[] array = Utils.hexStringToByteArray(text);
-            writeCharacteristic(writeCharacteristic, array);
+//            byte[] array = Utils.hexStringToByteArray(text);
+//            writeCharacteristic(writeCharacteristic, array);
+            StringBuilder sb = new StringBuilder();
+            sb.append(text);
+            String scommond;
+
+            byte[] array;
+            while (sb.length() != 0) {
+                if (sb.length() > 40) {
+                    scommond = sb.substring(0, 40);
+                    sb.delete(0, 40);
+                    array = Utils.hexStringToByteArray(scommond);
+                    writeCharacteristic(writeCharacteristic, array);
+                    try {
+                        sleep(50); //暂停，每一秒输出一次
+                    } catch (InterruptedException e) {
+                        return;
+                    }
+                } else {
+                    scommond = sb.toString();
+                    sb.delete(0, sb.length());
+                    array = Utils.hexStringToByteArray(scommond);
+                    writeCharacteristic(writeCharacteristic, array);
+                }
+
+            }
+
+
+
+
+
+
+
+
+
+
+
+
         } else {
             try {
                 int j = text.length() / 20;

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/title_bar_layout"
+        layout="@layout/title_bar" />
+
+    <GridView
+        android:id="@+id/grid_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray"
+        android:horizontalSpacing="@dimen/dp_0_5"
+        android:listSelector="@color/transparent"
+        android:numColumns="2"
+        android:verticalSpacing="@dimen/dp_0_5" />
+
+    <View style="@style/line_view_hor" />
+
+    <ScrollView
+        android:id="@+id/resultLayout"
+        android:layout_width="match_parent"
+        android:fadingEdge="vertical"
+        android:scrollbars="vertical"
+        android:visibility="gone"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/app_bg"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/showTextTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请求数据结果"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/sp_20"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:textColor="@color/green" />
+
+            <TextView
+                android:id="@+id/showText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_myview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="@dimen/dp_250"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/background_white_bg">
+
+        <RelativeLayout
+            android:id="@+id/titleLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:background="@drawable/dialog_top_bg">
+
+            <TextView
+                android:id="@+id/titleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/update_pwd_title"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_15" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/line_view"
+            style="@style/line_view_hor"
+            android:layout_below="@+id/titleLayout" />
+        <RelativeLayout
+            android:id="@+id/contentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_below="@+id/titleLayout"
+            android:padding="@dimen/dp_25">
+
+            <TextView
+                android:id="@+id/contenttext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/update_pwd_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_13" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/line_view_hor"
+            style="@style/line_view_hor"
+            android:layout_below="@+id/contentLayout" />
+
+        <RelativeLayout
+            android:id="@+id/okLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line_view_hor"
+            android:layout_centerInParent="true"
+            android:background="@drawable/dialog_btn_select">
+
+            <TextView
+                android:id="@+id/okText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/dp_5"
+                android:text="@string/update_pwd_ok"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_15" />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

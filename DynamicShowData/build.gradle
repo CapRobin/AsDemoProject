@@ -19,6 +19,6 @@ android {
 }
 
 dependencies {
-    compile files('libs/actionbarsherlock.jar')
-    compile files('libs/android-support-v4.jar')
+    implementation files('libs/actionbarsherlock.jar')
+    implementation files('libs/android-support-v4.jar')
 }

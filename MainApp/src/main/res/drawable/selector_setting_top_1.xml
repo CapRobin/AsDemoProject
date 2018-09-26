@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 背景颜色设置 -->
+    <solid android:color="@color/transparent" />
+
+    <!-- 背景圆角设置 -->
+    <corners
+        android:topLeftRadius="5dp"
+        android:topRightRadius="5dp" />
+
+    <!-- 背景边框设置 -->
+    <!--<stroke-->
+        <!--android:width="0.1dp"-->
+        <!--android:color="@color/gary" />-->
+
+</shape>

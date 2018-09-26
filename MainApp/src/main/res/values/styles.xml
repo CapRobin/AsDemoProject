@@ -1,0 +1,94 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--加载等的框样式-->
+    <style name="Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">stateHidden|adjustResize</item>
+    </style>
+
+
+    <style name="newPassword" parent="@android:Theme.DeviceDefault.Light.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="main_button_item">
+        <item name="android:padding">8dip</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <!--  主页中间图标-->
+    <style name="main_img_style">
+        <item name="android:layout_marginTop">14dp</item>
+        <item name="android:layout_width">90px</item>
+        <item name="android:layout_height">90px</item>
+    </style>
+
+    <style name="main_button_text">
+        <item name="android:textSize">@dimen/dp_14</item>
+        <item name="android:textColor">@color/main_center_text_color</item>
+        <item name="android:layout_marginTop">@dimen/dp_13</item>
+        <item name="android:layout_marginBottom">13dip</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <!--  分割线-->
+    <style name="main_divider_line_ver">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/main_center_divider_line</item>
+    </style>
+
+
+
+
+    <!--<View-->
+        <!--android:id="@+id/lineLaout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0.1dp"-->
+        <!--android:layout_below="@+id/contentLayout"-->
+        <!--android:background="@color/gary" />-->
+
+    <style name="line_view_hor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_0_1</item>
+        <item name="android:background">@color/gary</item>
+    </style>
+
+    <style name="btn_view_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/dp_8</item>
+        <item name="android:textSize">@dimen/sp_18</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/btn_select</item>
+        <item name="android:layout_marginLeft">@dimen/dp_20</item>
+        <item name="android:layout_marginRight">@dimen/dp_20</item>
+    </style>
+    <style name="AppTheme.NoActionBar.Permissions">
+        <item name="android:windowBackground">@color/colorPrimaryDark</item>
+    </style>
+</resources>

@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_45"
+    android:background="@color/app_theme_color"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="@dimen/dp_5"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/title_back_igv"
+                android:layout_width="@dimen/dp_25"
+                android:layout_height="@dimen/dp_25"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:visibility="gone"
+                android:src="@drawable/back_bg" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/sp_20" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/title_right_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/dp_5"
+            android:gravity="center_vertical">
+
+            <!--<ImageView-->
+            <!--android:id="@+id/right_btn_igvv"-->
+            <!--android:layout_width="@dimen/dp_25"-->
+            <!--android:layout_height="@dimen/dp_25"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_marginRight="@dimen/dp_7"-->
+            <!--android:background="@drawable/history_select_bg"-->
+            <!--android:scaleType="centerInside" />-->
+
+            <ImageView
+                android:id="@+id/title_right_igv"
+                android:layout_width="@dimen/dp_25"
+                android:layout_height="@dimen/dp_25"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/dp_7"
+                android:background="@drawable/setting"
+                android:scaleType="centerInside"
+                android:visibility="gone" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,79 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '27.0.3'
+
+    signingConfigs {
+        // your debug keystore
+        release {
+            keyAlias 'xts'
+            keyPassword 'wls9123'
+            storeFile file('E:/MySpace/xts.jks')
+            storePassword 'wls9123'
+        }
+    }
+
+    sourceSets {
+//        main {
+//            jniLibs.srcDir 'libs'
+//        }
+
+        // Move the tests to tests/java, tests/res, etc...
+        androidTest .setRoot('tests')
+
+        // Move the build types to build-types/<type>
+        // For instance, build-types/debug/java, build-types/debug/AndroidManifest.xml, ...
+        // This moves them out of them default location under src/<type>/... which would
+        // conflict with src/ being used by the main source set.
+        // Adding new build types or product flavors should be accompanied
+        // by a similar customization.
+        debug.setRoot('build-types/debug')
+        release.setRoot('build-types/release')
+
+        useLibrary 'org.apache.http.legacy'
+    }
+
+    defaultConfig {
+        applicationId "com.andbase.demo"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 7
+        versionName "2.0.6"
+    }
+
+    lintOptions {
+        abortOnError true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            zipAlignEnabled true
+            signingConfig signingConfigs.release
+            shrinkResources true
+        }
+        debug {
+            signingConfig signingConfigs.release
+        }
+    }
+
+}
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    /*引入andbase_library库 release debug*/
+    implementation project(':andbaselib')
+    //    flatDir {dir 'libs'}
+//    compile(name: 'andbase-debug', ext: 'aar')
+    implementation 'com.android.support:appcompat-v7:23.4.0'
+    implementation 'com.android.support:design:23.4.0'
+    implementation 'com.android.support:palette-v7:23.4.0'
+    implementation 'com.android.support:cardview-v7:23.4.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.0-alpha4'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:2.2.2'
+    androidTestImplementation 'com.android.support.test:runner:0.5'
+    androidTestImplementation 'com.android.support:support-annotations:23.4.0'
+}
+

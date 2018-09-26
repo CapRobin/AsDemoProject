@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/title_bar_layout"
+        layout="@layout/title_bar" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_300"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_10"
+        android:fadingEdge="vertical"
+        android:scrollbars="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/contentLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/test_btn_01"
+                style="@style/btn_view_style"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="@dimen/dp_10"
+                android:text="创建数据库" />
+
+            <Button
+                android:id="@+id/test_btn_02"
+                style="@style/btn_view_style"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="@dimen/dp_10"
+                android:text="删除数据库" />
+
+            <Button
+                android:id="@+id/test_btn_03"
+                style="@style/btn_view_style"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="@dimen/dp_10"
+                android:text="删除数据表" />
+
+            <Button
+                android:id="@+id/test_btn_04"
+                style="@style/btn_view_style"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="@dimen/dp_10"
+                android:text="新增表数据" />
+
+            <Button
+                android:id="@+id/test_btn_0501"
+                style="@style/btn_view_style"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="@dimen/dp_10"
+                android:text="删除表中全部数据" />
+
+            <Button
+                android:id="@+id/test_btn_0502"
+                style="@style/btn_view_style"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="@dimen/dp_10"
+                android:text="根据条件删除表数据" />
+
+            <Button
+                android:id="@+id/test_btn_06"
+                style="@style/btn_view_style"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="@dimen/dp_10"
+                android:text="修改表数据" />
+
+            <Button
+                android:id="@+id/test_btn_07"
+                style="@style/btn_view_style"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:text="查询表数据" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top_layout"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@drawable/background_transparent_bg"
+        android:fadingEdge="vertical"
+        android:scrollbars="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/contentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/showText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:gravity="top"
+                android:hint="请输入内容"
+                android:padding="@dimen/dp_5"
+                android:textColor="#373447"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

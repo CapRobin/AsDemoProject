@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--点击(选中)状态-->
+    <item android:state_pressed="true">
+        <shape>
+            <!-- 填充 -->
+            <solid android:color="@color/btn_click_bg" />
+            <!-- 圆角 -->
+            <corners
+                android:bottomLeftRadius="5dip"
+                android:bottomRightRadius="5dip"
+                android:topLeftRadius="5dip"
+                android:topRightRadius="5dip" />
+            <!-- 间隔 -->
+            <padding
+                android:bottom="5dip"
+                android:left="15dip"
+                android:right="15dip"
+                android:top="5dip" />
+
+        </shape>
+    </item>
+
+
+    <!--默认状态显示-->
+    <item android:state_pressed="false">
+        <shape>
+            <!-- 填充 -->
+            <solid android:color="@color/darkcyan" />
+            <!-- 圆角 -->
+            <corners
+                android:bottomLeftRadius="5dip"
+                android:bottomRightRadius="5dip"
+                android:topLeftRadius="5dip"
+                android:topRightRadius="5dip" />
+            <!-- 间隔 -->
+            <padding
+                android:bottom="5dip"
+                android:left="15dip"
+                android:right="15dip"
+                android:top="5dip" />
+        </shape>
+    </item>
+</selector>
