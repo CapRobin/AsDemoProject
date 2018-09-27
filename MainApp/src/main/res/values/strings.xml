@@ -21,7 +21,7 @@
     <string name="login_request_success">登录成功</string>
     <string name="login_request_failed">登录失败</string>
     <string name="meter_info_request_failed">获取表信息失败</string>
-    <string name="copyright">宁夏隆基宁光仪表股份有限公司 . All Right Reserved</string>
+    <string name="copyright">CapRobin@yeah.net . All Right Reserved</string>
 
     <!--系统首页-->
     <string name="index_title">首&#12288;&#12288;页</string>
@@ -48,43 +48,6 @@
     <string name="confirm_submit">确认提交</string>
     <string name="update_pwd_success">密码修改成功,请重新登录</string>
     <string name="updata_pwd_failed">密码修改失败</string>
-
-    <!--充值页面-->
-    <string name="pay_amount_text">充&#12288;&#12288;值</string>
-    <string name="pay_order_title">充值订单</string>
-    <string name="recharge_number">充值表号：</string>
-    <string name="user_account">用户账号：</string>
-    <string name="recharge_amount">充值金额：</string>
-    <string name="input_recharge_amount">请输入或选择充值金额</string>
-    <string name="select_recharge_amount">请选择充值金额</string>
-    <string name="recharge_unit">元</string>
-
-    <!--查询余额页面-->
-    <string name="query_balance_titile">查询余额</string>
-    <string name="balance_info">余额信息</string>
-    <string name="custom_name">用户姓名：</string>
-    <string name="meter_address">电表地址：</string>
-    <string name="custom_phone">手机号码：</string>
-    <string name="custom_address">装表地址：</string>
-    <string name="meter_balance">当前余额：</string>
-    <string name="query_submit">查&#12288;&#12288;询</string>
-
-    <!--拉合闸页面-->
-    <string name="switch_power_titile">充值订单</string>
-    <string name="switch_out_success">拉闸成功</string>
-    <string name="switch_in_success">合闸成功</string>
-    <string name="option_failed">操作失败，请重试!</string>
-    <!--冻结数据查询页面-->
-    <string name="query_freeze_titile">冻结数据</string>
-    <string name="custom_name_lable">客户姓名：</string>
-    <string name="custom_meter_num">客户表号：</string>
-    <string name="use_level">总计用量：</string>
-    <string name="min_time">最小日期：</string>
-    <string name="max_time">最大日期：</string>
-    <string name="min_rawval">最小读数：</string>
-    <string name="max_rawval">最大度数：</string>
-    <string name="customer_address">客户地址：</string>
-
 
     <!--系统设置页面-->
     <string name="sys_setting_title">退出程序</string>
