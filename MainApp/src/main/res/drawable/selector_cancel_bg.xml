@@ -10,11 +10,11 @@
             <corners
                 android:bottomLeftRadius="5dip" />
             <!-- 间隔 -->
-            <padding
-                android:bottom="5dip"
-                android:left="15dip"
-                android:right="15dip"
-                android:top="5dip" />
+            <!--<padding-->
+                <!--android:bottom="5dip"-->
+                <!--android:left="15dip"-->
+                <!--android:right="15dip"-->
+                <!--android:top="5dip" />-->
             <!-- 背景边框设置 -->
             <stroke
                 android:width="0.1dp"
@@ -32,11 +32,11 @@
             <corners
                 android:bottomLeftRadius="5dip"/>
             <!-- 间隔 -->
-            <padding
-                android:bottom="5dip"
-                android:left="15dip"
-                android:right="15dip"
-                android:top="5dip" />
+            <!--<padding-->
+                <!--android:bottom="5dip"-->
+                <!--android:left="15dip"-->
+                <!--android:right="15dip"-->
+                <!--android:top="5dip" />-->
             <!-- 背景边框设置 -->
             <stroke
                 android:width="0.1dp"

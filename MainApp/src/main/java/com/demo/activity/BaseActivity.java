@@ -1,6 +1,7 @@
 package com.demo.activity;
 
 import android.annotation.SuppressLint;
+import android.app.AlertDialog;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -9,6 +10,9 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v4.app.FragmentActivity;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.demo.R;
@@ -37,6 +41,11 @@ public class BaseActivity extends FragmentActivity {
     protected int screenHeight = 0;
     protected int screenWidth = 0;
     protected static DbManager db;
+    //退出弹框设置
+    private RelativeLayout cancelLayout;
+    private RelativeLayout confirmLayout;
+    private AlertDialog.Builder builder;
+    private AlertDialog alertDialog;
 
     @SuppressLint("HandlerLeak")
     private Handler mHandler = new Handler() {
@@ -128,6 +137,35 @@ public class BaseActivity extends FragmentActivity {
                 setToast(getResources().getString(R.string.exit_ok));
                 break;
         }
+    }
+
+    /**
+     * Describe：退出弹框提示
+     * Params:
+     * Date：2018-04-23 17:43:43
+     */
+    protected void dialogExit(Context context) {
+//        final Context context = SettingActivity.this;
+        LayoutInflater inflater = (LayoutInflater) context.getSystemService(LAYOUT_INFLATER_SERVICE);
+        View layout = inflater.inflate(R.layout.dialogview_exit_app, null);
+        cancelLayout = (RelativeLayout) layout.findViewById(R.id.cancelLayout);
+        confirmLayout = (RelativeLayout) layout.findViewById(R.id.confirmLayout);
+        cancelLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                alertDialog.dismiss();
+            }
+        });
+        confirmLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                exitApp(1);
+            }
+        });
+        builder = new AlertDialog.Builder(context, R.style.newPassword);
+        builder.setView(layout);
+        alertDialog = builder.create();
+        alertDialog.show();
     }
 
     /**

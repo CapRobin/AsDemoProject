@@ -59,7 +59,7 @@ public class InterfaceTestActivity extends BaseActivity{
     private ScrollView resultLayout;
 
 
-    @Event(value = {R.id.title_back_igv,R.id.okLayout,R.id.title_right_igv})
+    @Event(value = {R.id.title_back_igv,R.id.confirmLayout,R.id.title_right_igv})
     private void Click(View view){
         switch (view.getId()){
             case R.id.title_back_igv:
@@ -97,6 +97,8 @@ public class InterfaceTestActivity extends BaseActivity{
         mData.add(new Icon(R.drawable.interface_bg, "居民信息变更记录"));
         mData.add(new Icon(R.drawable.interface_bg, "获取更换水表信息"));
         mData.add(new Icon(R.drawable.interface_bg, "获取抄读的记录"));
+        mData.add(new Icon(R.drawable.interface_bg, "笑话大全"));
+        mData.add(new Icon(R.drawable.interface_bg, "菜谱大全"));
         mAdapter = new MyAdapter<Icon>(mData, R.layout.item_grid) {
             @Override
             public void bindView(MyAdapter.ViewHolder holder, Icon obj) {
@@ -134,6 +136,14 @@ public class InterfaceTestActivity extends BaseActivity{
                         dateStr = dateFormat.format(date);
                         token = Sha256Util.getSHA256StrJava("jingyuan1"+dateStr);
                         getMeterData(host+"getMeterData",token,dateStr);
+                        break;
+                    case 4:
+                        //sort=asc&page=1&pagesize=20&time=1518816972&key=09a278604f39a6887f87b26b15b51bd5
+                        getJokebook("asc","1","20","1518816972","09a278604f39a6887f87b26b15b51bd5");
+                        break;
+                    case 5:
+                        //sort=asc&page=1&pagesize=20&time=1518816972&key=09a278604f39a6887f87b26b15b51bd5
+                        getMenuebook("炒面","json","","30","","c6f3f39da135c670bcc179f910fb0f68");
                         break;
                     default:
                         break;
@@ -396,6 +406,152 @@ public class InterfaceTestActivity extends BaseActivity{
             @Override
             public void onFinished() {
                 LogUtil.d(TAG, "\ngetMeterData请求结束---------->>onFinished");
+                loading.dismiss();
+            }
+        });
+    }
+
+    /**
+     * Describe：笑话大全
+     * Params: [sort：排序类型，desc:指定时间之前发布的，asc:指定时间之后发布的]
+     * Params: [page：当前页数,默认1]
+     * Params: [pagesize：每次返回条数,默认1,最大20]
+     * Params: [time：时间戳（10位），如：1418816972]
+     * Params: [key：接口调用AppKey]
+     * Return: void
+     * Date：2018-10-18 08:54:01
+     */
+    private void getJokebook(String sort,String page, String pagesize, String time, String key) {
+        String url = "http://v.juhe.cn/joke/content/list.php";
+        //参数配置
+        LogUtil.d(TAG, "\ngetMeterData请求地址---------->>" + url);
+        RequestParams params = new RequestParams(url);
+        //Get请求参数配置
+        params.addQueryStringParameter("sort",sort);
+        params.addQueryStringParameter("page",page);
+        params.addQueryStringParameter("pagesize",pagesize);
+        params.addQueryStringParameter("time",time);
+        params.addQueryStringParameter("key",key);
+
+        //开始请求
+        loading.show();
+        x.http().get(params, new Callback.CommonCallback<String>() {
+            @Override
+            public void onSuccess(String result) {
+                LogUtil.d(TAG, "\ngetJokebook返回数据---------->>\n" + MethodUtil.formatJson(result));
+                try {
+                    JSONObject jObject = new JSONObject(result);
+                    int errorCode = jObject.getInt("error_code");
+//                    //请求成功
+                    if (errorCode == 0) {
+                        resultLayout.setVisibility(View.VISIBLE);
+                        showText.setText("");
+                        showTextTitle.setText("getJokebook请求数据");
+                        showText.setText(MethodUtil.formatJson(result));
+                    }else {
+                        resultLayout.setVisibility(View.GONE);
+                        setToast("请求数据失败");
+                    }
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            @Override
+            public void onError(Throwable throwable, boolean b) {
+                if (throwable instanceof HttpException) {
+                    HttpException he = (HttpException) throwable;
+                    int stateCode = he.getCode();
+                    String getMsg = he.getMessage();
+                    String getResult = he.getResult();
+                    LogUtil.d(TAG, "\ngetJokebook请求异常---------->>\ngetMsg=" + getMsg + "\ngetResult=" + getResult);
+                } else {
+                    //其他异常处理
+                }
+            }
+
+            @Override
+            public void onCancelled(CancelledException e) {
+                LogUtil.d(TAG, "\ngetJokebook取消请求---------->>onCancelled");
+            }
+
+            @Override
+            public void onFinished() {
+                LogUtil.d(TAG, "\ngetJokebook请求结束---------->>onFinished");
+                loading.dismiss();
+            }
+        });
+    }
+
+    /**
+     * Describe：菜谱大全
+     * Params: [menu：需要查询的菜谱名]
+     * Params: [dtype：返回数据的格式,xml或json，默认json]
+     * Params: [pn：数据返回起始下标]
+     * Params: [rn：数据返回条数，最大30]
+     * Params: [albums：albums字段类型，1字符串，默认数组]
+     * Params: [key：AppKey]
+     * Return: void
+     * Date：2018-10-18 08:54:01
+     */
+    private void getMenuebook(String menu,String dtype, String pn, String rn, String albums, String key) {
+        String url = "http://apis.juhe.cn/cook/query.php";
+        //参数配置
+        LogUtil.d(TAG, "\ngetMenuebook请求地址---------->>" + url);
+        RequestParams params = new RequestParams(url);
+        //Get请求参数配置
+        params.addQueryStringParameter("menu",menu);
+        params.addQueryStringParameter("dtype",dtype);
+        params.addQueryStringParameter("pn",pn);
+        params.addQueryStringParameter("rn",rn);
+        params.addQueryStringParameter("albums",albums);
+        params.addQueryStringParameter("key",key);
+
+        //开始请求
+        loading.show();
+        x.http().get(params, new Callback.CommonCallback<String>() {
+            @Override
+            public void onSuccess(String result) {
+                LogUtil.d(TAG, "\ngetMenuebook返回数据---------->>\n" + MethodUtil.formatJson(result));
+                try {
+                    JSONObject jObject = new JSONObject(result);
+                    int errorCode = jObject.getInt("error_code");
+//                    //请求成功
+                    if (errorCode == 0) {
+                        resultLayout.setVisibility(View.VISIBLE);
+                        showText.setText("");
+                        showTextTitle.setText("getJokebook请求数据");
+                        showText.setText(MethodUtil.formatJson(result));
+                    }else {
+                        resultLayout.setVisibility(View.GONE);
+                        setToast("请求数据失败");
+                    }
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            @Override
+            public void onError(Throwable throwable, boolean b) {
+                if (throwable instanceof HttpException) {
+                    HttpException he = (HttpException) throwable;
+                    int stateCode = he.getCode();
+                    String getMsg = he.getMessage();
+                    String getResult = he.getResult();
+                    LogUtil.d(TAG, "\ngetMenuebook请求异常---------->>\ngetMsg=" + getMsg + "\ngetResult=" + getResult);
+                } else {
+                    //其他异常处理
+                }
+            }
+
+            @Override
+            public void onCancelled(CancelledException e) {
+                LogUtil.d(TAG, "\ngetMenuebook取消请求---------->>onCancelled");
+            }
+
+            @Override
+            public void onFinished() {
+                LogUtil.d(TAG, "\ngetMenuebook请求结束---------->>onFinished");
                 loading.dismiss();
             }
         });

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\MySpace\\WorkSpace\\AsProject\\OtherProject\\AsDemoProject\\BleTest_LowPower\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ne-rNP\\values-ne-rNP.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.0.aar\\565cb2c077defeb6fb0d03d5eb0fa233\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "280,385,493,616,720,828,919,1026,1153,1241,1351,1467,1570,1685,1787,1902,2033,2145",
+                        "endColumns": "104,107,122,103,107,90,106,126,87,109,115,102,114,101,114,130,111,100",
+                        "endOffsets": "380,488,611,715,823,914,1021,1148,1236,1346,1462,1565,1680,1782,1897,2028,2140,2241"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,160,268,391,495,603,694,801,928,1016,1126,1242,1345,1460,1562,1677,1808,1920",
+                        "endColumns": "104,107,122,103,107,90,106,126,87,109,115,102,114,101,114,130,111,100",
+                        "endOffsets": "155,263,386,490,598,689,796,923,1011,1121,1237,1340,1455,1557,1672,1803,1915,2016"
+                    }
+                }
+            ]
+        }
+    ]
+}

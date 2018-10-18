@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\MySpace\\WorkSpace\\AsProject\\OtherProject\\AsDemoProject\\BleTest_LowPower\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mk-rMK\\values-mk-rMK.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.0.aar\\565cb2c077defeb6fb0d03d5eb0fa233\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "280,388,511,615,723,809,914,1033,1120,1226,1333,1434,1541,1652,1756,1854",
+                        "endColumns": "107,122,103,107,85,104,118,86,105,106,100,106,110,103,97,100",
+                        "endOffsets": "383,506,610,718,804,909,1028,1115,1221,1328,1429,1536,1647,1751,1849,1950"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,163,286,390,498,584,689,808,895,1001,1108,1209,1316,1427,1531,1629",
+                        "endColumns": "107,122,103,107,85,104,118,86,105,106,100,106,110,103,97,100",
+                        "endOffsets": "158,281,385,493,579,684,803,890,996,1103,1204,1311,1422,1526,1624,1725"
+                    }
+                }
+            ]
+        }
+    ]
+}

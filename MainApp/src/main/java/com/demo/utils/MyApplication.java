@@ -18,12 +18,11 @@ import org.xutils.x;
  */
 public class MyApplication extends Application {
     public Preferences preference;
-    public static MeterInfo meterInfoLists;
     public static CustomInfo mCustomInfo;
     //1：客户登录；2：管理登录
-    public static int userType = 2;
-    //管理员登录ID
-    public static int adminId = 0;
+//    public static int userType = 2;
+//    //管理员登录ID
+//    public static int adminId = 0;
 
     @Override
     public void onCreate() {

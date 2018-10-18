@@ -57,7 +57,7 @@
             android:layout_below="@+id/contentLayout" />
 
         <RelativeLayout
-            android:id="@+id/okLayout"
+            android:id="@+id/confirmLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/line_view_hor"

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\MySpace\\WorkSpace\\AsProject\\OtherProject\\AsDemoProject\\BleTest_LowPower\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fi\\values-fi.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.0.aar\\565cb2c077defeb6fb0d03d5eb0fa233\\res\\values-fi\\values-fi.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "276,384,492,615,715,816,902,1007,1125,1205,1312,1415,1512,1618,1717,1821,1940,2039",
+                        "endColumns": "107,107,122,99,100,85,104,117,79,106,102,96,105,98,103,118,98,100",
+                        "endOffsets": "379,487,610,710,811,897,1002,1120,1200,1307,1410,1507,1613,1712,1816,1935,2034,2135"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,163,271,394,494,595,681,786,904,984,1091,1194,1291,1397,1496,1600,1719,1818",
+                        "endColumns": "107,107,122,99,100,85,104,117,79,106,102,96,105,98,103,118,98,100",
+                        "endOffsets": "158,266,389,489,590,676,781,899,979,1086,1189,1286,1392,1491,1595,1714,1813,1914"
+                    }
+                }
+            ]
+        }
+    ]
+}

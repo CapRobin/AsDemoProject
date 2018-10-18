@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\MySpace\\WorkSpace\\AsProject\\OtherProject\\AsDemoProject\\BleTest_LowPower\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-my-rMM\\values-my-rMM.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.0.aar\\565cb2c077defeb6fb0d03d5eb0fa233\\res\\values-my-rMM\\values-my-rMM.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "280,389,497,622,727,844,937,1049,1185,1271,1396,1508,1610,1736,1847,1957,2080,2180",
+                        "endColumns": "108,107,124,104,116,92,111,135,85,124,111,101,125,110,109,122,99,100",
+                        "endOffsets": "384,492,617,722,839,932,1044,1180,1266,1391,1503,1605,1731,1842,1952,2075,2175,2276"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,164,272,397,502,619,712,824,960,1046,1171,1283,1385,1511,1622,1732,1855,1955",
+                        "endColumns": "108,107,124,104,116,92,111,135,85,124,111,101,125,110,109,122,99,100",
+                        "endOffsets": "159,267,392,497,614,707,819,955,1041,1166,1278,1380,1506,1617,1727,1850,1950,2051"
+                    }
+                }
+            ]
+        }
+    ]
+}

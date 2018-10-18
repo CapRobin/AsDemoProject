@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ImageView;
@@ -16,7 +17,9 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 import com.demo.R;
 import com.demo.adapter.MenuListAdapter;
+import com.demo.constant.Constant;
 import com.demo.entity.ListMenu;
+import com.demo.utils.Preferences;
 import com.donkingliang.banner.CustomBanner;
 
 import org.xutils.view.annotation.ContentView;
@@ -72,6 +75,8 @@ public class MainActivity extends BaseActivity {
      * Date：2018-09-25 15:50:22
      */
     private void initView() {
+        //设置登录成功标志(非第一次登录)
+        Preferences.mPreferences.putBoolean(Constant.ISFIRSTLOGIN,true);
         title_right_igv.setVisibility(View.VISIBLE);
         title_tv.setText("Android案例");
         //首页轮播设置
@@ -170,7 +175,7 @@ public class MainActivity extends BaseActivity {
         //列表Item标题
         titles = new String[]{
                 "XUtils3数据库使用",
-                "功能项02",
+                "接口测试",
                 "功能项03",
                 "功能项04",
                 "功能项05"
@@ -192,16 +197,15 @@ public class MainActivity extends BaseActivity {
         itemMenuList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent = null;
                 switch (position) {
                     case 0:
-                        Intent intent = new Intent(MainActivity.this, XutilDbActivity.class);
-                        startActivity(intent);
+                        intent = new Intent(mContext, XutilDbActivity.class);
                         break;
                     case 1:
-                        Toast.makeText(MainActivity.this, menuList.get(position).getTitle(), Toast.LENGTH_LONG).show();
+                        intent = new Intent(mContext, InterfaceTestActivity.class);
                         break;
                     case 2:
-
                         Toast.makeText(MainActivity.this, menuList.get(position).getTitle(), Toast.LENGTH_LONG).show();
                         break;
                     case 3:
@@ -211,8 +215,22 @@ public class MainActivity extends BaseActivity {
                         Toast.makeText(MainActivity.this, menuList.get(position).getTitle(), Toast.LENGTH_LONG).show();
                         break;
                 }
+                startActivity(intent);
             }
         });
+    }
+
+    /**
+     * Describe：退出系统监听
+     * Params:
+     * Date：2018-04-23 17:50:11
+     */
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if (keyCode == event.KEYCODE_BACK) {
+            exitApp(0);
+        }
+        return true;
     }
 }
 

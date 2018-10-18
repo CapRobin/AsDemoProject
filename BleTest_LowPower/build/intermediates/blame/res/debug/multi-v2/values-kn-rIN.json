@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\MySpace\\WorkSpace\\AsProject\\OtherProject\\AsDemoProject\\BleTest_LowPower\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn-rIN\\values-kn-rIN.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.0.aar\\565cb2c077defeb6fb0d03d5eb0fa233\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "280,398,506,629,741,854,942,1049,1176,1258,1374,1485,1584,1697,1801,1915,2041,2141",
+                        "endColumns": "117,107,122,111,112,87,106,126,81,115,110,98,112,103,113,125,99,100",
+                        "endOffsets": "393,501,624,736,849,937,1044,1171,1253,1369,1480,1579,1692,1796,1910,2036,2136,2237"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,173,281,404,516,629,717,824,951,1033,1149,1260,1359,1472,1576,1690,1816,1916",
+                        "endColumns": "117,107,122,111,112,87,106,126,81,115,110,98,112,103,113,125,99,100",
+                        "endOffsets": "168,276,399,511,624,712,819,946,1028,1144,1255,1354,1467,1571,1685,1811,1911,2012"
+                    }
+                }
+            ]
+        }
+    ]
+}

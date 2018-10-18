@@ -10,8 +10,10 @@ package com.demo.constant;
  */
 public class Constant {
 
-    public static int UserTypeNormal=0x01;
-    public static int UserTypeAdmin=0x02;
+//    //普通用户登录标识
+//    public static int UserTypeNormal=0x01;
+//    //管理登录标识
+//    public static int UserTypeAdmin=0x02;
 
 
     public static String HOST = "http://192.168.2.211:8080/lggmr";
@@ -23,10 +25,12 @@ public class Constant {
     public static final String USERNAME = "uName";
     //密码
     public static final String USERPASSWORD = "uPwd";
-    //用户类型
-    public static final String USERTYPE = "uType";
+//    //用户类型
+//    public static final String ISADMINLOGIN = "isAdminLogin";
     //是否第一次登录
     public static final String ISFIRSTLOGIN = "isFirstLogin";
+    //是否记住密码
+    public static final String ISREMEMBERPWD = "isRememberPwd";
 
     /*-----------接口常量-----------*/
     //系统登录

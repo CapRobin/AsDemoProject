@@ -26,6 +26,7 @@ public class WelcomeActivity extends BaseActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(mContext,LoginActivity.class));
+                finish();
             }
         });
     }

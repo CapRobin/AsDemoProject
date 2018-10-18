@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\MySpace\\WorkSpace\\AsProject\\OtherProject\\AsDemoProject\\BleTest_LowPower\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-et-rEE\\values-et-rEE.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.0.aar\\565cb2c077defeb6fb0d03d5eb0fa233\\res\\values-et-rEE\\values-et-rEE.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "280,397,505,628,735,846,932,1034,1151,1234,1345,1450,1549,1659,1760,1863,1991,2093",
+                        "endColumns": "116,107,122,106,110,85,101,116,82,110,104,98,109,100,102,127,101,100",
+                        "endOffsets": "392,500,623,730,841,927,1029,1146,1229,1340,1445,1544,1654,1755,1858,1986,2088,2189"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,172,280,403,510,621,707,809,926,1009,1120,1225,1324,1434,1535,1638,1766,1868",
+                        "endColumns": "116,107,122,106,110,85,101,116,82,110,104,98,109,100,102,127,101,100",
+                        "endOffsets": "167,275,398,505,616,702,804,921,1004,1115,1220,1319,1429,1530,1633,1761,1863,1964"
+                    }
+                }
+            ]
+        }
+    ]
+}

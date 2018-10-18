@@ -1,10 +1,14 @@
 package com.demo.activity;
 
+import android.app.AlertDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -44,6 +48,8 @@ public class SettingActivity extends BaseActivity {
     private RelativeLayout check_update;
     @ViewInject(R.id.help)
     private RelativeLayout help;
+    @ViewInject(R.id.exit_user_login)
+    private Button exit_user_login;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,7 +70,7 @@ public class SettingActivity extends BaseActivity {
 
     }
 
-    @Event(value = {R.id.title_back_igv,R.id.about_us,R.id.reportus,R.id.officialnews,R.id.check_update,R.id.help})
+    @Event(value = {R.id.title_back_igv,R.id.about_us,R.id.reportus,R.id.officialnews,R.id.check_update,R.id.help,R.id.exit_user_login})
     private void click(View view){
         switch (view.getId()){
             case R.id.title_back_igv:
@@ -81,8 +87,13 @@ public class SettingActivity extends BaseActivity {
                 break;
             case R.id.help:
                 break;
+            case R.id.exit_user_login:
+                dialogExit(mContext);
+                break;
             default:
                 break;
         }
     }
+
+
 }
