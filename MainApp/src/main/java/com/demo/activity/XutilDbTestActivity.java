@@ -188,7 +188,7 @@ public class XutilDbTestActivity extends BaseActivity {
      */
     private void insertData() {
         try {
-            ChildInfo childInfo = new ChildInfo("XinZeng", "11", "111");
+            ChildInfo childInfo = new ChildInfo("XinZeng", "11", "111", "1111");
             db.save(childInfo);
         } catch (DbException e) {
             e.printStackTrace();

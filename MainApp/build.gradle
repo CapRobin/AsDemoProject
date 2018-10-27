@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
 
 android {
     //引用Lib包路径
@@ -45,4 +46,8 @@ dependencies {
     implementation 'com.contrarywind:Android-PickerView:3.2.4'
     implementation files('libs/gson-2.6.2.jar')
     implementation(name: 'banner', ext: 'aar')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+repositories {
+    mavenCentral()
 }

@@ -22,6 +22,8 @@ public class ChildInfo {
     private String cAge;
     @Column(name = "c_number")
     private String cNumber;
+    @Column(name = "c_nickname")
+    private String cNickname;
 
     public String getcAge() {
         return cAge;
@@ -39,15 +41,24 @@ public class ChildInfo {
         this.cNumber = cNum;
     }
 
+    public String getcNickname() {
+        return cNickname;
+    }
+
+    public void setcNickname(String cNname) {
+        this.cNickname = cNname;
+    }
+
 
     //默认的构造方法必须写出，如果没有，这张表是创建不成功的
     public ChildInfo() {
     }
 
-    public ChildInfo(String cName,String cAge,String cNumber) {
+    public ChildInfo(String cName,String cAge,String cNumber,String cNname) {
         this.cName = cName;
         this.cAge = cAge;
         this.cNumber = cNumber;
+        this.cNickname = cNname;
     }
 //    public ChildInfo(String cName) {
 //        this.cName = cName;

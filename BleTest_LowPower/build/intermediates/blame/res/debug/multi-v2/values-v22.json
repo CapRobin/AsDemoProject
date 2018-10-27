@@ -4,22 +4,14 @@
             "outputFile": "E:\\MySpace\\WorkSpace\\AsProject\\OtherProject\\AsDemoProject\\BleTest_LowPower\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.0.aar\\565cb2c077defeb6fb0d03d5eb0fa233\\res\\values-v22\\values-v22.xml",
+                    "source": "D:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\7bd2668bcfabb83ab45f92167f0394e4\\res\\values-v22\\values-v22.xml",
                     "from": {
-                        "startLines": "4,5,6,9",
+                        "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "281,356,443,624",
-                        "endLines": "4,5,8,11",
+                        "startOffsets": "55,130,217,553",
+                        "endLines": "2,3,8,13",
                         "endColumns": "74,86,12,12",
-                        "endOffsets": "351,438,619,812"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,7",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,130,217,398",
-                        "endLines": "2,3,6,9",
-                        "endColumns": "74,86,12,12",
-                        "endOffsets": "125,212,393,586"
+                        "endOffsets": "125,212,548,896"
                     }
                 }
             ]

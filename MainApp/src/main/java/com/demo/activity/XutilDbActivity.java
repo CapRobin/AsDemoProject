@@ -167,15 +167,15 @@ public class XutilDbActivity extends BaseActivity {
      * Return:
      * Date：2018-09-22 09:44:04
      */
-
     private void addData() {
         //用集合向child_info表中插入多条数据
         ArrayList<ChildInfo> childInfolist = new ArrayList<>();
-        for (int i = 0; i < 50; i++) {
+        for (int i = 0; i < 10; i++) {
             ChildInfo childInfo = new ChildInfo();
             childInfo.setcName("name_" + (1 + i));
             childInfo.setcAge("age_" + (1 + i));
             childInfo.setcNum("number_" + (1 + i));
+            childInfo.setcNickname("nickName_" + (1 + i));
             childInfolist.add(childInfo);
         }
         for (ChildInfo childInfo : childInfolist) {
@@ -196,7 +196,7 @@ public class XutilDbActivity extends BaseActivity {
      */
     private void insertData() {
         try {
-            ChildInfo childInfo = new ChildInfo("XinZeng", "11", "111");
+            ChildInfo childInfo = new ChildInfo("XinZeng", "11", "111", "1111");
             db.save(childInfo);
         } catch (DbException e) {
             e.printStackTrace();
@@ -284,6 +284,7 @@ public class XutilDbActivity extends BaseActivity {
                     showTextStr = showTextStr + "Name：" + queryDataList.get(i).getcName() + "\n";
                     showTextStr = showTextStr + "Age：" + queryDataList.get(i).getcAge() + "\n";
                     showTextStr = showTextStr + "Number：" + queryDataList.get(i).getcNum() + "\n";
+                    showTextStr = showTextStr + "NickName：" + queryDataList.get(i).getcNickname() + "\n";
                     showTextStr = showTextStr + "~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n";
                 }
                 showText.setText(showTextStr);

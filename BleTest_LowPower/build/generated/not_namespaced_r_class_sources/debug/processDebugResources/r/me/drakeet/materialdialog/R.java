@@ -12,59 +12,59 @@ public final class R {
     public static final class color {
         private color() {}
 
-        public static final int black_de = 0x7f050015;
-        public static final int card_background = 0x7f050020;
-        public static final int card_shadow = 0x7f050021;
-        public static final int lite_blue = 0x7f050041;
-        public static final int window_background = 0x7f050066;
+        public static final int black_de = 0x7f06001f;
+        public static final int card_background = 0x7f06002a;
+        public static final int card_shadow = 0x7f06002b;
+        public static final int lite_blue = 0x7f06004f;
+        public static final int window_background = 0x7f060092;
     }
     public static final class dimen {
         private dimen() {}
 
-        public static final int action_button_height = 0x7f06003c;
-        public static final int action_button_min_width = 0x7f06003d;
-        public static final int action_button_padding_horizontal = 0x7f06003e;
-        public static final int action_button_text_size = 0x7f06003f;
-        public static final int activity_horizontal_margin = 0x7f060040;
-        public static final int activity_vertical_margin = 0x7f060041;
+        public static final int action_button_height = 0x7f07004b;
+        public static final int action_button_min_width = 0x7f07004c;
+        public static final int action_button_padding_horizontal = 0x7f07004d;
+        public static final int action_button_text_size = 0x7f07004e;
+        public static final int activity_horizontal_margin = 0x7f07004f;
+        public static final int activity_vertical_margin = 0x7f070050;
     }
     public static final class drawable {
         private drawable() {}
 
-        public static final int bg_button_normal = 0x7f070047;
-        public static final int bg_button_pressed = 0x7f070048;
-        public static final int button = 0x7f07004b;
-        public static final int material_card = 0x7f070052;
-        public static final int material_dialog_window = 0x7f070053;
+        public static final int bg_button_normal = 0x7f080065;
+        public static final int bg_button_pressed = 0x7f080066;
+        public static final int button = 0x7f080069;
+        public static final int material_card = 0x7f080077;
+        public static final int material_dialog_window = 0x7f080078;
     }
     public static final class id {
         private id() {}
 
-        public static final int btn_n = 0x7f080017;
-        public static final int btn_p = 0x7f08001b;
-        public static final int buttonLayout = 0x7f08001e;
-        public static final int contentView = 0x7f080031;
-        public static final int material_background = 0x7f08005e;
-        public static final int message = 0x7f080065;
-        public static final int message_content_root = 0x7f080066;
-        public static final int message_content_view = 0x7f080067;
-        public static final int title = 0x7f0800aa;
+        public static final int btn_n = 0x7f090025;
+        public static final int btn_p = 0x7f090029;
+        public static final int buttonLayout = 0x7f09002c;
+        public static final int contentView = 0x7f090040;
+        public static final int material_background = 0x7f09007b;
+        public static final int message = 0x7f090081;
+        public static final int message_content_root = 0x7f090082;
+        public static final int message_content_view = 0x7f090083;
+        public static final int title = 0x7f0900e4;
     }
     public static final class layout {
         private layout() {}
 
-        public static final int layout_material_dialog = 0x7f0a002f;
+        public static final int layout_material_dialog = 0x7f0c0038;
     }
     public static final class string {
         private string() {}
 
-        public static final int action_settings = 0x7f0d0011;
-        public static final int app_name = 0x7f0d0014;
-        public static final int hello_world = 0x7f0d0040;
+        public static final int action_settings = 0x7f0f0027;
+        public static final int app_name = 0x7f0f002a;
+        public static final int hello_world = 0x7f0f005b;
     }
     public static final class style {
         private style() {}
 
-        public static final int ActionButton = 0x7f0e0000;
+        public static final int ActionButton = 0x7f100000;
     }
 }

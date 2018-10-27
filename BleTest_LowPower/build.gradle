@@ -9,13 +9,13 @@ android {
         //添加该行代码可避免打包生成Apk或编译时报翻译中文错误的问题
         disable 'MissingTranslation'
     }
-    compileSdkVersion 23
-    buildToolsVersion '28.0.2'
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "com.usr.usrsimplebleassistent"
         minSdkVersion 18
-        targetSdkVersion 23
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
         javaCompileOptions { annotationProcessorOptions { includeCompileClasspath = true } }
@@ -34,9 +34,9 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     testImplementation 'junit:junit:4.12'
-    implementation 'com.android.support:recyclerview-v7:23.0.0'
-    implementation 'com.android.support:cardview-v7:23.0.0'
-    implementation 'com.android.support:design:23.0.0'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
     implementation 'com.jakewharton:butterknife:7.0.1'
 //    compile project(':MaterialDesignDialoglibrary')
 //    compile 'com.github.navasmdc:MaterialDesign:1.5@aar'
